@@ -8,6 +8,7 @@
 	echo "  Files tn the current directry is:" >> assignment.log
 	ls -l
 	echo `date && ls -l` >> assignment.log
+	echo `>>>> Writting on the Log files | date && ls -l` >> assignment.log
 	for file in *.txt;
 		do
 			mv "$file" "$b+${files}.rb"
